@@ -6,7 +6,7 @@ string greets(string name)
 
 Console.Write("Enter your full name: ");
 string name = Console.ReadLine();
-Console.WriteLine("\nYour name is: " + greets(name));
+Console.WriteLine("\nGreetings " + greets(name));
 #endregion
 Console.WriteLine("\n____________________________\n");
 #region Task2
@@ -93,7 +93,7 @@ else if (res == 'c')
 }
 else if (res == 'n')
 {
-    Console.WriteLine("\nThe letter you've entered '" + ch + "' Not a letter!");
+    Console.WriteLine("\nThe letter you've entered '" + ch + "' Not a letter or you wrote more than one letter!");
 }
 #endregion
 Console.WriteLine("\n____________________________\n");
